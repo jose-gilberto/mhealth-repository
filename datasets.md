@@ -12,7 +12,8 @@ This table includes all the datasets in raw format. Without any transformation o
 |MIMIC PERform AF Dataset|
 |WESAD|
 |BRNO PPG|
-|[PTB-XL-500Hz](https://drive.google.com/file/d/19irJEAeYAuvUEzOv3jI4tbVOoz9OLQd_/view?usp=sharing)|21799|18869|5000|12|No|Yes|v1.0| 
+|[PTB-XL-500Hz](https://drive.google.com/file/d/19irJEAeYAuvUEzOv3jI4tbVOoz9OLQd_/view?usp=sharing)|21799|18869|5000|12|No|Yes|v1.0|
+|[European ST-T](https://drive.google.com/file/d/1hpLcWWihw2EJTl86GqkrNTEqJFIkGL_F/view?usp=sharing)|90|79|1800000|2|No|Yes|v1.0|
 
 *In this case the number of dimensions represent three independent segments with one dimension for each subject.
 
