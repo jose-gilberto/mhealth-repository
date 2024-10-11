@@ -12,6 +12,7 @@ This table includes all the datasets in raw format. Without any transformation o
 |MIMIC PERform AF Dataset|
 |WESAD|
 |BRNO PPG|
+|[PTB-XL-500Hz](https://drive.google.com/file/d/19irJEAeYAuvUEzOv3jI4tbVOoz9OLQd_/view?usp=sharing)|21799|18869|5000|12|No|Yes|v1.0| 
 
 *In this case the number of dimensions represent three independent segments with one dimension for each subject.
 
@@ -24,3 +25,11 @@ Liang Y, Chen Z, Liu G, Elgendi M. A new, short-recorded photoplethysmogram data
 signals.tsv include the 5 dimension signals, the PPG, ECG and ACC (XYZ).  
 
 Reiss, A., Indlekofer, I., & Schmidt, P. (2019). PPG-DaLiA [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C53890.
+
+## PTB-XL-500Hz
+
+The PTB-XL ECG dataset is a large dataset of 21799 clinical 12-lead ECGs from 18869 patients of 10 second length with a sampling rate of 500Hz. 
+The dataset is already stratified on 10-fold and splited on train, validation and test based on the original paper recommendation (e.g. all records of a particular patient were assigned to the same fold and split).
+We utilized the pytorch format (`.pt`) for the data (signals and labels) and `.csv` for metadata.
+
+Wagner, P., Strodthoff, N., Bousseljot, R., Samek, W., & Schaeffter, T. (2022). PTB-XL, a large publicly available electrocardiography dataset (version 1.0.3). PhysioNet. https://doi.org/10.13026/kfzx-aw45.
